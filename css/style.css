@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Calibri Regular';
+  src: url('Calibri.eot');
+  src: url('Calibri.eot?#iefix') format('embedded-opentype'), url('Calibri.woff') format('woff'), url('Calibri.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri Bold';
+  src: url('Calibri-Bold.eot');
+  src: url('Calibri-Bold.eot?#iefix') format('embedded-opentype'), url('Calibri-Bold.woff') format('woff'), url('Calibri-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+div.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+div.bg {
+  background: url('../img/bg.png') no-repeat top center;
+  background-size: contain;
+}
+h1 {
+  font-family: 'Calibri Bold', sans-serif;
+  font-size: 60px;
+  line-height: 72px;
+  color: #141419;
+}
+header div.container div.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+header div.container div.header-top ul.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+header div.container div.header-top ul.main-nav li {
+  list-style: none;
+  margin-right: 75px;
+}
+header div.container div.header-top ul.main-nav li a {
+  text-decoration: none;
+  font-family: 'Calibri Regular', sans-serif;
+  color: #616161;
+  font-size: 18px;
+  line-height: 29px;
+}
+header div.container div.header-top ul.main-nav li a:hover {
+  border-bottom: 2px solid #fb973b;
+}
+header div.container div.header-top ul.main-nav li:last-child {
+  margin-right: 0;
+}
+header div.container div.header-top div.contact {
+  margin: 20px 0;
+  font-family: 'Calibri Bold', sans-serif;
+  color: #141419;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: bold;
+}
